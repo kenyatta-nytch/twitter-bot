@@ -26,7 +26,7 @@ except requests.exceptions.RequestException as err:
 
 # process story data
 story_list = []
-title = data['title'] + '. By: ' + data['author']
+title = data['title'] + '. By: ' + data['author'] + '\n#shortstory #shortstories'
 story_list.append(title)
 
 # break down the story to required tweet char length(280)
